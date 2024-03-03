@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.principal{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(BR-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sombra{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.421);
+    width: 100vw;
+    height: 100vh;
+}
+/*menu*/
+.menu{
+    width: 100%;
+   position: absolute;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+.navegacao > img{
+    width: 200px;
+}
+.botoes > button{
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 17pt;
+    border: solid white 1px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 4px 12px;
+}
+.botoes > a{
+    text-decoration: none;
+    color: white;
+    padding:4px ;
+    background-color: rgb(189, 57, 57);
+    padding: 10px 20px;
+    border-radius: 7%;
+    font-weight: 500;
+}
