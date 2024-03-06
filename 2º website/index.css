@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.principal{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.principal::before{
+    content: "";
+    width: 300px;
+    height: 300px;
+    background-color: #198425;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -150px;
+    left: -150px;
+}
+/*Menu*/
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px black;
+    padding: 0px 100px;
+}
+.menu .logo >h2{
+    color: #198425;
+    font-size: 30px;
+}
+.menu .navegacao > a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+    transition: 0.5s;
+}
+.menu .navegacao > a:hover{
+    color: #198425;
+
+}
+.menu .botao{
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: solid 1px #198425;
+    box-shadow: 1px 1px 5px 2px #198425;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #198425;
+    transition: 0.5s;
+}
+.menu .botao:hover{
+    background-color: #198425;
+    color: white;
+    transform: scale(1.1);
+}
+
+/*Centro*/
+.centro{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.centro .bloco01 > h1{
+    font-size: 3.5rem;
+    color:#198425 ;
+}
+.centro .bloco01 > p{
+    margin-top: 20px;
+}
+.centro .bloco01 .caixa-botao{
+    margin-top: 40px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    background-color: rgba(184, 184, 184, 0.67);
+    box-shadow: 0px 0px 2px black;
+}
+.centro .bloco01 .caixa-botao > input{
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.centro .bloco01 .caixa-botao > button{
+    width: 25%;
+    height: 80%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #198425;
+    cursor: pointer;
+}
+.conteiner{
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
